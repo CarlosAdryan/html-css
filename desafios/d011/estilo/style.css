@@ -2,7 +2,7 @@
 
 body 
 {    
-    height: 100vh;
+    height: 100%;
     background-image: url(../imagens/espaco.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -12,9 +12,8 @@ body
 
 #img01{
    background-image: url(../imagens/astronauta.png);
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   
-   
+   position: absolute;
+   transform: translate(-50%, -50%);
+   left: 50%;
+   top: 50%;
 }
